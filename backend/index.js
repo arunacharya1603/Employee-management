@@ -7,8 +7,7 @@ const EmployeeRoutes = require('./Routes/EmployeeRoutes');
 const PORT = process.env.PORT || 8080;
 
 require('./Models/db');
-const allowedOrigins = ['http://localhost:8080', 'https://employee-mng-api.vercel.app'];
-
+const allowedOrigins = ['http://localhost:8080', 'https://employee-mng-api.vercel.app', 'https://empl-oye.vercel.app'];
 // CORS configuration
 const corsOptions = {
     origin: (origin, callback) => {
